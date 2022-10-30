@@ -1,0 +1,37 @@
+body{
+  background-color: #b4cbc06a;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.wrapper{
+  width: 400px;
+  height: 40px;
+}
+.firstLine{
+  width: 400px;
+  height: 40px;
+  background-color: #83cd58;
+}
+.secondLine{
+  width: 400px;
+  height: 40px;
+  background-color: #7b67d3;
+}
+.btn{
+  font-size: 16px;
+  cursor: pointer;
+  width: 120px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  background-color:#58cd856a;
+}
+.btn:hover{
+  background-color:#56a1736a;
+}
+.btn:active {
+  transform: scale(1.05);
+  transition: .1s ease-in-out;
+}
